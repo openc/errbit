@@ -5,11 +5,11 @@ RAILS_VERSION = '~> 3.2.18'
 gem 'actionmailer', RAILS_VERSION
 gem 'actionpack', RAILS_VERSION
 gem 'railties', RAILS_VERSION
-
 gem 'mongoid'
 
 gem 'mongoid_rails_migrations'
 gem 'devise'
+gem 'devise_ldap_authenticatable'
 gem 'haml'
 gem 'htmlentities'
 gem 'rack-ssl', :require => 'rack/ssl'   # force SSL
