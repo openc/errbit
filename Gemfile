@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 RAILS_VERSION = '~> 3.2.18'
 
 gem 'actionmailer', RAILS_VERSION
-gem 'actionpack', RAILS_VERSION
+gem 'actionpack', '>= 5.2.4.3', RAILS_VERSION
 gem 'railties', RAILS_VERSION
 gem 'mongoid'
 
